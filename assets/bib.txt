@@ -1,0 +1,8 @@
+@misc{atzmon2021equivariant,
+    title = {Frame Averaging for Equivariant Shape Space Learning}, 
+    author = {Matan Atzmon and Koki Nagano and Sanja Fidler and Sameh Khamis and Yaron Lipman},
+    eprint = {2112.01741},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV},
+    year = {2021}
+}
