@@ -107,10 +107,11 @@
         </figure>
         <hr/>
 
-        <figure style="width: 100%;">
+        <figure style="width: 80%;">
             <a href="assets/method_2.png">
                 <img width="100%" src="assets/method_2.png">
             </a>
+        </figure>
             <p class="caption" style="margin-bottom: 0.8rem">
                 Novel construction of Piecewise Euclidean equivariant autoencoders. The suggested
                 architecture consist of the same \(\phi\) backbone, where it is used for the equivariant
@@ -118,13 +119,22 @@
                 decoding of each part’s latent code. Lastly, the final prediction is a weighted sum of each
                 part’s equivariant output mesh.
             </p>
-        </figure>
         </section>
 
         <section id="results"/>
         <h2>Results</h2>
         <hr/>
 
+        <figure style="width: 100%;">
+            <video width="100%" controls muted loop autoplay>
+                <source src="assets/results.mkv" type="video/mp4">
+            </video>
+            <p class="caption" style="margin-bottom: 0.8rem">
+                Reconstruction of unseen poses using the equivariant mesh autoencoder.
+            </p>
+        </figure>
+
+        <hr/>
         <figure style="width: 100%;">    
             <a href="assets/commonobject3d.png">
                 <img width="100%" src="assets/commonobject3d.png">
@@ -141,7 +151,7 @@
                 <img width="100%" src="assets/dfaust.png">
             </a>
             <p class="caption" style="margin-bottom: 0.8rem">
-            <strong>DFaust dataset</strong>: Piecewise Euclidean equivariant mesh \(\rightarrow\) mesh. Colors mark different splits: green is the random (easy) split; orange is the unseen random pose split; and red is the unseen pose split, see the paper for details.
+            <strong>DFaust dataset</strong>: Piecewise Euclidean equivariant mesh \(\rightarrow\) mesh. Testing on poses that are unseen during training.
             </p>
         </figure>
 
